@@ -11,6 +11,7 @@ const globalStyle =  createGlobalStyle`
     height:100%;
     width:100%;
   }
+
   #root {
     row-gap: 0;
     display: grid;

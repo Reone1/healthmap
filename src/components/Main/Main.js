@@ -1,9 +1,9 @@
 import React from 'react';
 import MainContainer from './style/Container';
 
-const Main = () => {
+const Main = ({children}) => {
   return <MainContainer>
-    Main
+    {children}
   </MainContainer>
 }
 export default Main
