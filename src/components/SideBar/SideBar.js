@@ -4,9 +4,9 @@ import SidebarContainer from './style/Container'
 
 const SideBar = () => {
   return <SidebarContainer>
-    <SideItem name="daily"/>
-    <SideItem name="weekly"/>
-    <SideItem name="monthly"/>
+    <SideItem path="/" name="daily"/>
+    <SideItem path="/monthly" name="weekly"/>
+    <SideItem path="/daily" name="monthly"/>
   </SidebarContainer>
 }
 export default SideBar

@@ -1,9 +1,9 @@
 import React from 'react'
-import {SideItemContainer} from './style/Container'
+import { SideItemContainer } from './style/Container'
+import {
+  Link
+} from 'react-router-dom'
 
-const SideItem = ({name}) => {
-  return <SideItemContainer>
-   {name}
-  </SideItemContainer>
-}
+const SideItem = ({ name, path }) => <Link to={path} component={SideItemContainer}>{name}</Link>
+
 export default SideItem;
